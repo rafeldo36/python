@@ -239,17 +239,31 @@
 # else:
 #     print("Number is zero")
 
-x = int(input("Enter the value of x: "))
-# x is the variable to match
-match x:
-    # if x is 0
-    case 0:
-        print("x is zero")
-    # case with if-condition
-    case 4:
-        print("case is 4")
+# x = int(input("Enter the value of x: "))
+# # x is the variable to match
+# match x:
+#     # if x is 0
+#     case 0:
+#         print("x is zero")
+#     # case with if-condition
+#     case 4:
+#         print("case is 4")
 
-    case _ if x!=90:
-        print(x, "is not 90")
-    case _:
-        print(x)
+#     case _ if x!=90:
+#         print(x, "is not 90")
+#     case _:
+#         print(x)
+
+name = 'Rafey'
+for i in name:
+    print(i, end=", ")
+    
+colors = ["Red", "Green", "Blue", "Yellow"]
+for x in colors:
+    print(x)
+    
+for k in range(5):
+    print(k)
+    
+for k in range(4,9,2):
+    print(k)
