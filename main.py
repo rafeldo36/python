@@ -88,22 +88,40 @@
 
 # print(int(x) + int(y))
 
-name = "Harry"
-friend = "Rohan"
-anotherFriend = 'Lovish'
-apple = '''He said, 
-Hi Harry
-hey I am good
-"I want to eat an apple'''
+# name = "Harry"
+# friend = "Rohan"
+# anotherFriend = 'Lovish'
+# apple = '''He said, 
+# Hi Harry
+# hey I am good
+# "I want to eat an apple'''
  
-print("Hello, " + name)
-# print(apple) 
-print(name[0])
-print(name[1])
-print(name[2])
-print(name[3])
-print(name[4])
-# print(name[5]) # Throws an error
-print("Lets use a for loop\n")
-for character in apple:
-    print(character)
+# print("Hello, " + name)
+# # print(apple) 
+# print(name[0])
+# print(name[1])
+# print(name[2])
+# print(name[3])
+# print(name[4])
+# # print(name[5]) # Throws an error
+# print("Lets use a for loop\n")
+# for character in apple:
+#     print(character)
+
+fruit = "Mango"
+len1 = len(fruit)
+print("Mango is a", len1, "letter word.")
+
+pie = "ApplePie"
+print(pie[:5])
+print(pie[6])	#returns character at specified index
+
+pie = "ApplePie"
+print(pie[:5])      #Slicing from Start
+print(pie[5:])      #Slicing till End
+print(pie[2:6])     #Slicing in between
+print(pie[-8:])     #Slicing using negative index
+
+alphabets = "ABCDE"
+for i in alphabets:
+    print(i)
