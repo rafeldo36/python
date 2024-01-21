@@ -79,11 +79,31 @@
 
 # print(c + d)
 
-a = input("Enter your name: ")
-print("My name is", a)
+# a = input("Enter your name: ")
+# print("My name is", a)
 
-x = input("Enter first number: ")
-y = input("Enter second number: ")
-print(x  + y)
+# x = input("Enter first number: ")
+# y = input("Enter second number: ")
+# print(x  + y)
 
-print(int(x) + int(y))
+# print(int(x) + int(y))
+
+name = "Harry"
+friend = "Rohan"
+anotherFriend = 'Lovish'
+apple = '''He said, 
+Hi Harry
+hey I am good
+"I want to eat an apple'''
+ 
+print("Hello, " + name)
+# print(apple) 
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+print(name[4])
+# print(name[5]) # Throws an error
+print("Lets use a for loop\n")
+for character in apple:
+    print(character)
