@@ -211,30 +211,45 @@
 # str1 = "He's name is Dan. Dan is an honest man."
 # print(str1.title())
 
-applePrice = 210
-budget = 200
-if (applePrice <= budget):
-    print("Alexa, add 1 kg Apples to the cart.")
-else:
-    print("Alexa, do not add Apples to the cart.")
+# applePrice = 210
+# budget = 200
+# if (applePrice <= budget):
+#     print("Alexa, add 1 kg Apples to the cart.")
+# else:
+#     print("Alexa, do not add Apples to the cart.")
     
-#     num = 0
+# #     num = 0
+# # if (num < 0):
+# #     print("Number is negative.")
+# # elif (num == 0):
+# #     print("Number is Zero.")
+# # else:
+# #     print("Number is positive.")
+    
+#     num = 18
 # if (num < 0):
 #     print("Number is negative.")
-# elif (num == 0):
-#     print("Number is Zero.")
+# elif (num > 0):
+#     if (num <= 10):
+#         print("Number is between 1-10")
+#     elif (num > 10 and num <= 20):
+#         print("Number is between 11-20")
+#     else:
+#         print("Number is greater than 20")
 # else:
-#     print("Number is positive.")
-    
-    num = 18
-if (num < 0):
-    print("Number is negative.")
-elif (num > 0):
-    if (num <= 10):
-        print("Number is between 1-10")
-    elif (num > 10 and num <= 20):
-        print("Number is between 11-20")
-    else:
-        print("Number is greater than 20")
-else:
-    print("Number is zero")
+#     print("Number is zero")
+
+x = int(input("Enter the value of x: "))
+# x is the variable to match
+match x:
+    # if x is 0
+    case 0:
+        print("x is zero")
+    # case with if-condition
+    case 4:
+        print("case is 4")
+
+    case _ if x!=90:
+        print(x, "is not 90")
+    case _:
+        print(x)
