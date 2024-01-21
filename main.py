@@ -67,14 +67,23 @@
 # ans6 = n//m
 # print("Floor Division of",n,"and",m,"is", ans6)
 
-a = "1"
-# a = 1
-b = "2"
-# b = 2
-print(int(a) + int(b))
+# a = "1"
+# # a = 1
+# b = "2"
+# # b = 2
+# print(int(a) + int(b))
 
-# Implicit TypeCasting
-c = 1.9
-d = 8
+# # Implicit TypeCasting
+# c = 1.9
+# d = 8
 
-print(c + d)
+# print(c + d)
+
+a = input("Enter your name: ")
+print("My name is", a)
+
+x = input("Enter first number: ")
+y = input("Enter second number: ")
+print(x  + y)
+
+print(int(x) + int(y))
