@@ -108,20 +108,105 @@
 # for character in apple:
 #     print(character)
 
-fruit = "Mango"
-len1 = len(fruit)
-print("Mango is a", len1, "letter word.")
+# fruit = "Mango"
+# len1 = len(fruit)
+# print("Mango is a", len1, "letter word.")
 
-pie = "ApplePie"
-print(pie[:5])
-print(pie[6])	#returns character at specified index
+# pie = "ApplePie"
+# print(pie[:5])
+# print(pie[6])	#returns character at specified index
 
-pie = "ApplePie"
-print(pie[:5])      #Slicing from Start
-print(pie[5:])      #Slicing till End
-print(pie[2:6])     #Slicing in between
-print(pie[-8:])     #Slicing using negative index
+# pie = "ApplePie"
+# print(pie[:5])      #Slicing from Start
+# print(pie[5:])      #Slicing till End
+# print(pie[2:6])     #Slicing in between
+# print(pie[-8:])     #Slicing using negative index
 
-alphabets = "ABCDE"
-for i in alphabets:
-    print(i)
+# alphabets = "ABCDE"
+# for i in alphabets:
+#     print(i)
+
+# str1 = "AbcDEfghIJ"
+# print(str1.upper())
+
+# str1 = "AbcDEfghIJ"
+# print(str1.lower())
+
+str2 = " Silver Spoon "
+print(str2.strip())
+
+str3 = "Hello !!!"
+print(str3.rstrip("!"))
+
+str2 = "Silver Spoon"
+print(str2.replace("Sp", "M"))
+
+str2 = "Silver Spoon"
+print(str2.split(" "))      #Splits the string at the whitespace " ".
+
+str1 = "hello"
+capStr1 = str1.capitalize()
+print(capStr1)
+str2 = "hello WorlD"
+capStr2 = str2.capitalize()
+print(capStr2)
+
+str1 = "Welcome to the Console!!!"
+print(str1.center(50))
+
+str1 = "Welcome to the Console!!!"
+print(str1.center(50, "."))
+
+str2 = "Abracadabra"
+countStr = str2.count("a")
+print(countStr)
+
+str1 = "Welcome to the Console !!!"
+print(str1.endswith("!!!"))
+
+str1 = "Welcome to the Console !!!"
+print(str1.endswith("to", 4, 10))
+
+str1 = "He's name is Dan. He is an honest man."
+print(str1.find("is"))
+
+str1 = "He's name is Dan. He is an honest man."
+print(str1.find("Rafey"))
+
+str1 = "He's name is Dan. Dan is an honest man."
+print(str1.index("Dan"))
+
+# str1 = "He's name is Dan. Dan is an honest man."
+# print(str1.index("Daniel"))
+
+str1 = "WelcomeToTheConsole"
+print(str1.isalnum())
+
+str1 = "hello world"
+print(str1.islower())
+
+str1 = "We wish you "
+print(str1.isprintable())
+
+str1 = "        "       #using Spacebar
+print(str1.isspace())
+str2 = "        "       #using Tab
+print(str2.isspace())
+
+str1 = "World Health Organization" 
+print(str1.istitle())
+
+str2 = "To kill a Mocking bird"
+print(str2.istitle())
+
+str1 = "WORLD HEALTH ORGANIZATION" 
+print(str1.isupper())
+
+str1 = "Python is a Interpreted Language" 
+print(str1.startswith("Python"))
+
+str1 = "Python is a Interpreted Language" 
+print(str1.swapcase())
+
+str1 = "He's name is Dan. Dan is an honest man."
+print(str1.title())
