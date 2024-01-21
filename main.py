@@ -254,16 +254,34 @@
 #     case _:
 #         print(x)
 
-name = 'Rafey'
-for i in name:
-    print(i, end=", ")
+# name = 'Rafey'
+# for i in name:
+#     print(i, end=", ")
     
-colors = ["Red", "Green", "Blue", "Yellow"]
-for x in colors:
+# colors = ["Red", "Green", "Blue", "Yellow"]
+# for x in colors:
+#     print(x)
+    
+# for k in range(5):
+#     print(k)
+    
+# for k in range(4,9,2):
+#     print(k)
+
+count = 5
+while (count > 0):
+  print(count)
+  count = count - 1
+  
+x = 0
+while (x > 0):
     print(x)
+    x = x - 1
+else:
+    print('counter is 0')
     
-for k in range(5):
-    print(k)
-    
-for k in range(4,9,2):
-    print(k)
+while True:
+  number = int(input("Enter a positive number: "))
+  print(number)
+  if not number > 0:
+    break
