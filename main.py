@@ -132,81 +132,109 @@
 # str1 = "AbcDEfghIJ"
 # print(str1.lower())
 
-str2 = " Silver Spoon "
-print(str2.strip())
+# str2 = " Silver Spoon "
+# print(str2.strip())
 
-str3 = "Hello !!!"
-print(str3.rstrip("!"))
+# str3 = "Hello !!!"
+# print(str3.rstrip("!"))
 
-str2 = "Silver Spoon"
-print(str2.replace("Sp", "M"))
+# str2 = "Silver Spoon"
+# print(str2.replace("Sp", "M"))
 
-str2 = "Silver Spoon"
-print(str2.split(" "))      #Splits the string at the whitespace " ".
+# str2 = "Silver Spoon"
+# print(str2.split(" "))      #Splits the string at the whitespace " ".
 
-str1 = "hello"
-capStr1 = str1.capitalize()
-print(capStr1)
-str2 = "hello WorlD"
-capStr2 = str2.capitalize()
-print(capStr2)
+# str1 = "hello"
+# capStr1 = str1.capitalize()
+# print(capStr1)
+# str2 = "hello WorlD"
+# capStr2 = str2.capitalize()
+# print(capStr2)
 
-str1 = "Welcome to the Console!!!"
-print(str1.center(50))
+# str1 = "Welcome to the Console!!!"
+# print(str1.center(50))
 
-str1 = "Welcome to the Console!!!"
-print(str1.center(50, "."))
+# str1 = "Welcome to the Console!!!"
+# print(str1.center(50, "."))
 
-str2 = "Abracadabra"
-countStr = str2.count("a")
-print(countStr)
+# str2 = "Abracadabra"
+# countStr = str2.count("a")
+# print(countStr)
 
-str1 = "Welcome to the Console !!!"
-print(str1.endswith("!!!"))
+# str1 = "Welcome to the Console !!!"
+# print(str1.endswith("!!!"))
 
-str1 = "Welcome to the Console !!!"
-print(str1.endswith("to", 4, 10))
+# str1 = "Welcome to the Console !!!"
+# print(str1.endswith("to", 4, 10))
 
-str1 = "He's name is Dan. He is an honest man."
-print(str1.find("is"))
+# str1 = "He's name is Dan. He is an honest man."
+# print(str1.find("is"))
 
-str1 = "He's name is Dan. He is an honest man."
-print(str1.find("Rafey"))
-
-str1 = "He's name is Dan. Dan is an honest man."
-print(str1.index("Dan"))
+# str1 = "He's name is Dan. He is an honest man."
+# print(str1.find("Rafey"))
 
 # str1 = "He's name is Dan. Dan is an honest man."
-# print(str1.index("Daniel"))
+# print(str1.index("Dan"))
 
-str1 = "WelcomeToTheConsole"
-print(str1.isalnum())
+# # str1 = "He's name is Dan. Dan is an honest man."
+# # print(str1.index("Daniel"))
 
-str1 = "hello world"
-print(str1.islower())
+# str1 = "WelcomeToTheConsole"
+# print(str1.isalnum())
 
-str1 = "We wish you "
-print(str1.isprintable())
+# str1 = "hello world"
+# print(str1.islower())
 
-str1 = "        "       #using Spacebar
-print(str1.isspace())
-str2 = "        "       #using Tab
-print(str2.isspace())
+# str1 = "We wish you "
+# print(str1.isprintable())
 
-str1 = "World Health Organization" 
-print(str1.istitle())
+# str1 = "        "       #using Spacebar
+# print(str1.isspace())
+# str2 = "        "       #using Tab
+# print(str2.isspace())
 
-str2 = "To kill a Mocking bird"
-print(str2.istitle())
+# str1 = "World Health Organization" 
+# print(str1.istitle())
 
-str1 = "WORLD HEALTH ORGANIZATION" 
-print(str1.isupper())
+# str2 = "To kill a Mocking bird"
+# print(str2.istitle())
 
-str1 = "Python is a Interpreted Language" 
-print(str1.startswith("Python"))
+# str1 = "WORLD HEALTH ORGANIZATION" 
+# print(str1.isupper())
 
-str1 = "Python is a Interpreted Language" 
-print(str1.swapcase())
+# str1 = "Python is a Interpreted Language" 
+# print(str1.startswith("Python"))
 
-str1 = "He's name is Dan. Dan is an honest man."
-print(str1.title())
+# str1 = "Python is a Interpreted Language" 
+# print(str1.swapcase())
+
+# str1 = "He's name is Dan. Dan is an honest man."
+# print(str1.title())
+
+applePrice = 210
+budget = 200
+if (applePrice <= budget):
+    print("Alexa, add 1 kg Apples to the cart.")
+else:
+    print("Alexa, do not add Apples to the cart.")
+    
+#     num = 0
+# if (num < 0):
+#     print("Number is negative.")
+# elif (num == 0):
+#     print("Number is Zero.")
+# else:
+#     print("Number is positive.")
+    
+    num = 18
+if (num < 0):
+    print("Number is negative.")
+elif (num > 0):
+    if (num <= 10):
+        print("Number is between 1-10")
+    elif (num > 10 and num <= 20):
+        print("Number is between 11-20")
+    else:
+        print("Number is greater than 20")
+else:
+    print("Number is zero")
