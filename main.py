@@ -52,17 +52,29 @@
 # dict1 = {"name":"Sakshi", "age":20, "canVote":True}
 # print(dict1)
     
-n = 15
-m = 7
-ans1 = n+m
-print("Addition of",n,"and",m,"is", ans1)
-ans2 = n-m
-print("Subtraction of",n,"and",m,"is", ans2)
-ans3 = n*m
-print("Multiplication of",n,"and",m,"is", ans3)
-ans4 = n/m
-print("Division of",n,"and",m,"is", ans4)
-ans5 = n%m
-print("Modulus of",n,"and",m,"is", ans5)
-ans6 = n//m
-print("Floor Division of",n,"and",m,"is", ans6)
+# n = 15
+# m = 7
+# ans1 = n+m
+# print("Addition of",n,"and",m,"is", ans1)
+# ans2 = n-m
+# print("Subtraction of",n,"and",m,"is", ans2)
+# ans3 = n*m
+# print("Multiplication of",n,"and",m,"is", ans3)
+# ans4 = n/m
+# print("Division of",n,"and",m,"is", ans4)
+# ans5 = n%m
+# print("Modulus of",n,"and",m,"is", ans5)
+# ans6 = n//m
+# print("Floor Division of",n,"and",m,"is", ans6)
+
+a = "1"
+# a = 1
+b = "2"
+# b = 2
+print(int(a) + int(b))
+
+# Implicit TypeCasting
+c = 1.9
+d = 8
+
+print(c + d)
